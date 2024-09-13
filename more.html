@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เมนูอาหาร</title>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;700&display=swap">
+        <style>
+            body {
+            font-family: 'Mitr', sans-serif;
+            }
+        </style>
+
+    <!--แท็บบนสุด-->
+    <header class="p-3 text-bg-danger">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"></a>
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          <br>
+
+          <!--ปุ่มลิ้งค์-->
+          <div class="d-flex gap-2 justify-content-center py-1">
+            <button class="btn btn-warning rounded-pill px-3" type="button">
+              <a href="index.html">Home</a>
+            </button>
+            
+            <button class="btn btn-info rounded-pill py-1" type="button">
+              <a href="more.html">More</a>
+            </button> 
+            <button class="btn btn-dark rounded-pill py-1" type="button">
+              <a href="Aboutme.html">About me</a>
+            </button>           
+          </div>                      
+      </header>
+
+                         
+     <header class="p-3 bg-white"> <!--พื้นหลัง-->
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+
+
+    <!--หัวข้อ-->
+    <div class="container px-4 py-5 ">
+      <h2 class="pb-2 border-bottom text-danger">The Wish Dessert Cafe</h2>
+
+        <!--รูป1-->
+        <div data-aos="zoom-in">
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img2/tw1.png" alt="">
+              </div>
+            </div>
+
+            <!--รูป2-->
+            <div data-aos="zoom-in">
+              <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <img src="img2/tw2.png"alt="">
+                </div>                    
+              </div>
+            </div>
+
+            <!--รูป3-->
+            <div data-aos="zoom-in">
+              <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <img src="img2/tw3.png"alt="">
+                </div>                    
+              </div>
+            </div>
+          </div>
+        </div>    
+
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">The Wish Dessert Cafe </h2>
+            <h5 class="text-body-secondary ">คาเฟ่ขนมหวานใจกลางเมืองแก่งคอย มาพร้อมการตกแต่งที่สวยงาม 
+              เน้นร้านสีขาว ตกแต่งเรียบง่าย มีพื้นที่นั่งกว้างขวาง ทางร้านยังมีเมนูเครื่องดื่มและขนมหวานหลายรายการ 
+              แต่มาร้านนี้ทั้งทีต้องสั่งบิงซูถ้วยโตกับผลไม้ ทานแล้วชื่นใจเหมาะกับอากาศร้อนมาก  
+              <br>ที่ตั้ง : 683/24 ถนนถวิลวัฒนา หมู่บ้านสุขใจ 1 อำเภอแก่งคอย จังหวัดสระบุรี 18110
+              <br>เวลาเปิด–ปิด : 11.00–21.00 น.<h5></p>
+            <a href="https://maps.apple.com/?address=%E0%B8%96%E0%B8%99%E0%B8%99%20%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%97%E0%B8%B1%E0%B8%94%20%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&ll=14.589456,100.994432&q=%E0%B8%96%E0%B8%99%E0%B8%99%20%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%97%E0%B8%B1%E0%B8%94&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>      
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                </svg>
+                </div>
+                <h3 class="fw-semibold mb-0 text-body-emphasis">Desserts and drinks</h3> <!--ของหวาน-->
+                <h4 class="text-body-secondary">Bakery,cake and drinks</p> <!--เบเกอรี่ เค้ก-->
+                  <a href="menucafe-tw.html" class="btn btn-primary btn-lg">menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    <!--หัวข้อ-->
+        <h2 class="pb-2 border-bottom text-danger">cafe'33</h2>
+        <!--รูป1-->
+        <div data-aos="zoom-in">
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img/cafe33-1.png" alt="">
+              </div>
+            </div>
+            <!--รูป2-->
+            <div data-aos="zoom-in">
+              <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <img src="img/cafe33-3.png"alt="">
+                </div>                    
+              </div>
+            </div>
+            <!--รูป3-->
+            <div data-aos="zoom-in">
+              <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                  <img src="img/cafe33-2.png"alt="">
+                </div>                    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">cafe'33 </h2>
+            <h5 class="text-body-secondary ">คาเฟ่แก่งคอยตกแต่งสไตล์ลอฟต์ เหมาะสำหรับผู้ที่ชื่นชอบการดื่มกาแฟ เนื่องจากที่นี่มีเมล็ดกาแฟให้เลือกหลายแบบ 
+              ทางร้านคั่วเมล็ดกาแฟเองและมีเครื่องดื่มซิกเนเจอร์น่าลองมากมาย พร้อมเมนูขนมหวานแสนอร่อย ให้คุณลิ้มลองตลอดทั้งวัน ที่สำคัญมีจุดถ่ายรูปเก๋ๆเพียบ    
+              <br>ที่ตั้ง : ตำบลตาลเดี่ยว อำเภอแก่งคอย จังหวัดสระบุรี 18110
+              <br>เวลาเปิด – ปิด : วันอาทิตย์ – จันทร์ 08.00 – 17.00 น. 
+              <br>อังคาร – เสาร์ 07.00 – 18.00 น.<h5></p>
+            <a href="https://maps.apple.com/?address=33/3%203188%20%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&auid=12591608958325638692&ll=14.585768,100.980869&lsp=9902&q=Caf%C3%A9%2033&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>  
+          
+        <div class="col">
+          <div class="row row-cols-1 row-cols-sm-2 g-4">
+            <div class="col d-flex flex-column gap-2">
+              <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                <svg class="bi" width="1em" height="1em">
+                  <use xlink:href="#collection"></use>
+                </svg>
+              </div>
+              <h3 class="fw-semibold mb-0 text-body-emphasis">Desserts and drinks</h3> <!--ของหวาน-->
+              <h4 class="text-body-secondary">Bakery,cake and drinks </p> <!--เบเกอรี่ เค้ก-->
+                <a href="menucafe-33.html" class="btn btn-primary btn-lg">menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+        <!--หัวข้อ-->
+          <h2 class="pb-2 border-bottom text-danger">บ้านไรพอเพียง แคมป์ปิ้ง&คาเฟ่</h2>      
+      <!--รูป1--> 
+      <div data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <img src="img/b1.png" alt="">
+            </div>
+          </div>
+          <!--รูป2-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img/b3.png"alt="">
+              </div>                    
+            </div>
+          </div>
+          <!--รูป3-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img/b4.png"alt="">
+              </div>                    
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">บ้านไร่พอเพียงแคมป์ปิ้ง&คาเฟ่</h2>
+            <h5 class="text-body-secondary ">  รายล้อมไปด้วยธรรมชาติอันเขียวขจี ที่นี่ให้บริการทั้งแคมป์ปิ้ง
+               และคาเฟ่ในบ้านไม้หลังเล็กๆ ที่นี่มีมุมที่นั่งหลายโซนทั้งในร้าน ชานระเบียง และโซนด้านนอก พร้อมเมนูเครื่องดื่มและขนมหวานแสนอร่อยหลากหลายรายการ                
+              <br>ที่ตั้ง : 59/9 ม.9 ตำบลชะอม อำเภอแก่งคอย จังหวัดสระบุรี 18110
+              <br>  เวลาเปิด-ปิด : จันทร์-ศุกร์ 08:00-17:00 น. เสาร์-อาทิตย์ 07:00-18:00 น.
+              <h5></p>
+            <a href="https://maps.apple.com/?address=59/9%20%E0%B8%A1.9%20%0A%E0%B8%95.%E0%B8%8A%E0%B8%B0%E0%B8%AD%E0%B8%A1%20%E0%B8%AD.%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%0A%E0%B8%88.%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%0A%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&auid=6198110479306540766&ll=14.452140,101.157576&lsp=9902&q=%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%A3%E0%B9%88%E0%B8%9E%E0%B8%AD%E0%B9%80%E0%B8%9E%E0%B8%B5%E0%B8%A2%E0%B8%87%20%E0%B9%81%E0%B8%84%E0%B8%A1%E0%B8%9B%E0%B9%8C%E0%B8%9B%E0%B8%B4%E0%B9%89%E0%B8%87%26%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h3 class="fw-semibold mb-0 text-body-emphasis">cafe and camping</h3> <!--ของหวาน-->
+                <h4 class="text-body-secondary">Food and camping</p> 
+                  <a href="menubr.html" class="btn btn-primary btn-lg">menu</a>
+              </div>   
+            </div>
+          </div>
+        </div>
+        
+
+         
+        <!--หัวข้อ-->
+          <h2 class="pb-2 border-bottom text-danger">Black Home Drink & Eatery</h2>        
+      <!--รูป1-->
+      <div data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <img src="img/black1.jpg" alt="">
+            </div>
+          </div>
+          <!--รูป2-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img/Black2.jpg"alt="">
+              </div>                    
+            </div>
+          </div>
+          <!--รูป3-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img/black3.jpg"alt="">
+              </div>                    
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">Black Home Drink & Eatery</h2>
+            <h5 class="text-body-secondary ">คาเฟ่แก่งคอยเปิดใหม่สไตล์เกาหลี ตัวร้านตกแต่งอย่างสวยงามคุมโทนด้วยสีดำ 
+              อาหารที่ทางร้านบริการจะเป็นอาหารเกาหลีไม่ว่าจะเป็นแซลมอน ไข่ดองซีอิ๊วเกาหลี ไก่ทอดต็อกบ๊กกี จาจังมยอน ซุปกิมจิ และอื่น ๆ 
+              พร้อมเมนูเครื่องดื่มแสนอร่อยหลากหลายเมนู รับรองว่ามาแล้วจะติดใจ                
+              <br>ที่ตั้ง : 5/156 หมู่บ้านเจริญวิลล์พลัส ตำบลบ้านป่า อำเภอแก่งคอย จังหวัดสระบุรี 18110  
+              <br>เวลาเปิด–ปิด : 10.30 – 18.00 น.
+              <h5></p>
+            <a href="https://maps.apple.com/?address=8/18%20%E0%B8%96%E0%B8%99%E0%B8%99%20%E0%B8%AD%E0%B8%9A%E0%B8%88.%20%E0%B8%AA%E0%B8%9A.%2003010%20%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&auid=6599328732988874445&ll=14.599413,101.036956&lsp=9902&q=BLACK%20HOME%20(Drink%26Eatery)&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h3 class="fw-semibold mb-0 text-body-emphasis">Korean food</h3> 
+                <h4 class="text-body-secondary">Korean food and drinks </p> <!--เบเกอรี่ เค้ก-->
+                  <a href="menublack.html" class="btn btn-primary btn-lg">menu</a>
+              </div>   
+            </div>
+          </div>
+        </div>
+           
+         <!--หัวข้อ-->
+        <h2 class="pb-2 border-bottom text-danger">Proof cafe</h2>
+      <!--รูป1-->
+      <div data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <img src="img2/proof2.png" alt="">
+            </div>
+          </div>
+          <!--รูป2-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img2/proof3.png"alt="">
+              </div>                    
+            </div>
+          </div>
+          <!--รูป3-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img2/proof4.png"alt="">
+              </div>                    
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">Proof cafe</h2>
+            <h5 class="text-body-secondary ">คาเฟ่สุดน่ารัก สไตล์มินิมอล+ญี่ปุ่น คุมโทนร้านด้วยสีเอิร์ทโทนน้ำตาลครีม มุมถ่ายรูปน่ารักๆ มองหน้าร้านจะเป็นร้านเล็กๆ
+              แต่ข้างในกว้างขวางมาก มีโซนถ่ายรูปทั้งด้านในและด้านนอก ขนมของหวานน่ารับประทาน อีกทั้งยังรับทำเค้กวันเกิดอีกด้วย             
+              <br>ที่ตั้ง : ร้านอยู่ข้าง 7-11  ตลาดเอื้อบุญ ตำบล ตาลเดี่ยว อำเภอแก่งคอย จังหวัดสระบุรี 18110
+              <br>เวลาเปิด–ปิด : 07:00-17:00 น.
+              <h5></p>
+            <a href="https://maps.apple.com/?address=101%203188%20%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&auid=459380836514398169&ll=14.560110,100.971855&lsp=9902&q=Proof%20Cafe&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h3 class="fw-semibold mb-0 text-body-emphasis">Desserts</h3> <!--ของหวาน-->
+                <h4 class="text-body-secondary">Bakery and cake  </p> <!--เบเกอรี่ เค้ก-->
+                  <a href="menuProof.html" class="btn btn-primary btn-lg">menu</a>                 
+              </div>  
+            </div>
+          </div>
+        </div>
+
+
+        <!--หัวข้อ-->
+        <h2 class="pb-2 border-bottom text-danger">Taste TasteCocoa สระบุรี</h2>
+      <!--รูป1-->
+      <div data-aos="zoom-in">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+              <img src="img2/Taste1.png" alt="">
+            </div>
+          </div>
+          <!--รูป2-->
+          <div data-aos="zoom-in">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img2/Taste2.png"alt="">
+              </div>                    
+            </div>
+          </div>
+          <!--รูป3-->
+          <div data-aos="zoom-in ">
+            <div class="col">
+              <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                <img src="img2/Taste3.png"alt="">
+              </div>                    
+            </div>
+          </div>
+        </div>
+      </div>      
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-2">
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class=" text-body-emphasis">Taste TasteCocoa สระบุรี</h2>
+            <h5 class="text-body-secondar">คาเฟ่โทนน้ำตาล เข้ากับชื่อร้าน เมนูเด็ดโกโก้เข้มข้นราคาไม่แพง รสชาติอร่อยและยังมีเมนูอื่นๆอีกมากมาย 
+              มีขนมเบเกอรี่ของหวาน ทำสดใหม่ทุกวัน และยังมีการจัดตกแต่งร้านตามเทศกาล เช่น ฮาโลวีน คริสมาสต์ วันวาเลนไทน์ เป็นต้น         
+              <br> ที่ตั้ง : 36 ถนน ทินนะลักษณ์ ตำบล แก่งคอย อำเภอแก่งคอย จังหวัดสระบุรี 18110
+              <br>เวลาเปิด–ปิด : 08:30-18:00 น.
+              <h5></p>
+            <a href="https://maps.apple.com/?address=1569%20%E0%B8%96%E0%B8%99%E0%B8%99%20%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B2%E0%B8%A2%E0%B8%B1%E0%B8%9E%20%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%AD%E0%B8%A2%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5%2018110%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&auid=12417775019671851690&ll=14.588050,100.998166&lsp=9902&q=Taste%20Cocoa%20%E0%B9%82%E0%B8%81%E0%B9%82%E0%B8%81%E0%B9%89%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1%E0%B8%82%E0%B9%89%E0%B8%99%20%E0%B8%AA%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5&t=m" class="btn btn-primary btn-lg">map</a>
+          </div>
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                  <svg class="bi" width="1em" height="1em">
+                    <use xlink:href="#collection"></use>
+                  </svg>
+                </div>
+                <h3 class="fw-semibold mb-0 text-body-emphasis">Desserts and drinks</h3> <!--ของหวาน-->
+                <h4 class="text-body-secondary">Bakery and drinks </p> <!--เบเกอรี่ เค้ก-->
+                  <a href="menuTaste.html" class="btn btn-primary btn-lg">menu</a>
+              </div>   
+            </div>
+          </div>
+        </div>
+
+        <!--footer-->
+        <center> <footer class="py-5 my-4">
+          <ul class="nav justify-content-center border-bottom ">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"> websiteนี้จัดทำขึ้นเพื่อการศึกษา ในรายวิชาโปรแกรมกราฟิกสำหรับการออกแบบเว็บไซต์
+              <br>ไม่ได้มีเจตนาในการลอกเลียนแบบหรือแสวงหาผลประโยชน์ใดๆทั้งสิ้น</a></li>                     
+          </ul>
+          <p class="text-center text-secondary">SBT</p>
+        </footer>
+        
+      <script>
+        AOS.init();
+      </script>  
+</body>
+</html>
